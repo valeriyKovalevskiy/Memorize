@@ -7,6 +7,7 @@
 //
 
 //for viewModel we use classes because it's easy to share
+// shuffle 1 time
 
 import SwiftUI
 
@@ -23,7 +24,7 @@ class EmojiMemoryGame: ObservableObject {
     
     //MARK: - Access to the model
     var cards: Array<MemoryGame<String>.Card> {
-        model.cards.shuffled()
+        model.cards  
     }
     //MARK: - Intent(s)
     
