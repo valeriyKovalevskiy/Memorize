@@ -6,9 +6,6 @@
 //  Copyright © 2020 Valeriy Kovalevskiy. All rights reserved.
 //
 
-//for viewModel we use classes because it's easy to share
-// shuffle 1 time
-
 import SwiftUI
 
 class EmojiMemoryGame: ObservableObject {

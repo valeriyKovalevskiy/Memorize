@@ -29,17 +29,17 @@ struct Pie: Shape {
             y: center.y + radius * sin(CGFloat(startAngle.radians ))
         )
         
-        var p = Path()
-        p.move(to: center)
-        p.addLine(to: start)
-        p.addArc(
+        var path = Path()
+        path.move(to: center)
+        path.addLine(to: start)
+        path.addArc(
             center: center,
             radius: radius,
             startAngle: startAngle,
             endAngle: endAngle,
             clockwise: clockwise
         )
-        p.addLine(to: center )
-        return p
+        path.addLine(to: center )
+        return path
     }
 }

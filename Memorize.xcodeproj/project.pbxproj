@@ -70,16 +70,13 @@
 		2650036D24868897005AC626 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
-				2660FF3B248E05D90061DB26 /* Pie.swift */,
 				2650036E24868897005AC626 /* AppDelegate.swift */,
 				2650037024868897005AC626 /* SceneDelegate.swift */,
-				2650037224868897005AC626 /* EmojiMemoryGameView.swift */,
-				2660FF3D248E0D990061DB26 /* Cardify.swift */,
-				26A30226248A272E009C4B77 /* Grid.swift */,
-				26A3022A248A3DAC009C4B77 /* Array+Identifiable.swift */,
-				26A30228248A3897009C4B77 /* GridLayout.swift */,
-				26F77D6C248788C0006BC663 /* EmojiMemoryGame.swift */,
-				26F77D6A248786B9006BC663 /* MemoryGame.swift */,
+				2660FF41248E36D40061DB26 /* Model */,
+				2660FF42248E37050061DB26 /* View */,
+				2660FF43248E37100061DB26 /* ViewModel */,
+				2660FF3F248E364A0061DB26 /* UI */,
+				2660FF40248E36560061DB26 /* Extensions */,
 				2650037424868898005AC626 /* Assets.xcassets */,
 				2650037924868898005AC626 /* LaunchScreen.storyboard */,
 				2650037C24868898005AC626 /* Info.plist */,
@@ -94,6 +91,49 @@
 				2650037724868898005AC626 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2660FF3F248E364A0061DB26 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2660FF3D248E0D990061DB26 /* Cardify.swift */,
+				2660FF3B248E05D90061DB26 /* Pie.swift */,
+				26A30226248A272E009C4B77 /* Grid.swift */,
+				26A30228248A3897009C4B77 /* GridLayout.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2660FF40248E36560061DB26 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				26A3022A248A3DAC009C4B77 /* Array+Identifiable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2660FF41248E36D40061DB26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26F77D6A248786B9006BC663 /* MemoryGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2660FF42248E37050061DB26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2650037224868897005AC626 /* EmojiMemoryGameView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2660FF43248E37100061DB26 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				26F77D6C248788C0006BC663 /* EmojiMemoryGame.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
